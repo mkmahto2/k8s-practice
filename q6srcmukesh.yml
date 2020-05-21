@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: q6srvmkmahto
+spec:
+  type: NodePort
+  selector:
+    adhoc: mkmahtoq6
+  ports:
+    - port: 9000
+      targetPort: 9000

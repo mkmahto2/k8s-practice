@@ -1,0 +1,9 @@
+NAME            TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+jenkinspod1     NodePort       10.106.31.145    <none>        8080:31811/TCP   5m2s
+kubernetes      ClusterIP      10.96.0.1        <none>        443/TCP          25h
+q2srcmkmahto2   NodePort       10.99.84.26      <none>        80:30719/TCP     44m
+q3srvmkmahto    NodePort       10.111.237.137   <none>        80:32123/TCP     34m
+q4svcmkmahto    LoadBalancer   10.105.154.105   <pending>     80:30763/TCP     29m
+q5svcmkmahto    LoadBalancer   10.111.135.49    <pending>     80:30138/TCP     23m
+q6srvmkmahto    NodePort       10.100.140.188   <none>        9000:31891/TCP   18m
+q8srvmkmahto    NodePort       10.99.156.31     <none>        80:31902/TCP     11m

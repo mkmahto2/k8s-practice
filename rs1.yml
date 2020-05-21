@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: adhocrsmkmahto4
+  labels:
+    app: adhocrsmkmahto4
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      adhoc: mkmahtoq4 
+  template:
+    metadata:
+      name: adhocpod4
+      labels:
+        adhoc: mkmahtoq4
+    spec:
+      containers:
+      - env:
+        - name: x
+          value: app2
+        image: mkmahto7/webapp2:v1
+        imagePullPolicy: Always
+        name: adhocpod4
+        ports:
+        - containerPort: 80

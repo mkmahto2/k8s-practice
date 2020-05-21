@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: adhocrsmkmahto4
+  name: q4svcmkmahto
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    adhoc: mkmahtoq4
+  type: LoadBalancer
+

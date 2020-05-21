@@ -1,0 +1,50 @@
+  931  kubectl get services
+  932  vim pod2.yml
+  933  kubectl apply pod2.yml 
+  934  kubectl apply -f  pod2.yml 
+  935  vim pod1.yml
+  936  vim pod2.yml 
+  937  kubectl apply -f  pod2.yml 
+  938  vim pod3.yml
+  939  kubectl apply -f  pod3.yml 
+  940  vim servicepod3.yml
+  941  kubectl apply -f  servicepod3.yml
+  942  vim rs1.yml
+  943  kubectl apply -f  rs1.yml
+  944  vim q4servicemukesh.yml
+  945  kubectl apply -f  q4servicemukesh.yml
+  946  vim depapp.yml
+  947  kubectl apply -f depapp.yml
+  948  vim q5svcmukesh.yml
+  949  kubectl apply -f q5svcmukesh.yml
+  950  vim portainer.yml
+  951  kubectl apply -f portainer.yml
+  952  vim q6srcmukesh.yml
+  953  kubectl apply -f q6srcmukesh.yml
+  954  vim q6srcmukesh.yml
+  955  kubectl apply -f q6srcmukesh.yml
+  956  vim 7poddatemukesh.yml
+  957  kubectl apply -f 7poddatemukesh.yml
+  958  vim podexammukesh.yml
+  959  kubectl apply -f podexammukesh.yml
+  960  vim 8srcmukesh.yml
+  961  kubectl apply -f 8srcmukesh.yml
+  962  vim jenkinspod.yml
+  963  kubectl apply -f jenkinspod.yml
+  964  kubectl expose pod jenkinspod --port 8080 --type NodePort
+  965  kubectl expose pod jenkinspod.yml --port 8080 --type NodePort
+  966  kubectl expose pod jenkinspod1.yml --port 8080 --type NodePort
+  967  ls
+  968  kubectl expose pod jenkinspod --port 8080 --type NodePort
+  969  kubectl apply -f jenkinspod.yml
+  970  kubectl expose pod jenkinspod1 --port 8080 --type NodePort
+  971  kubectl get src
+  972  kubectl get srv
+  973  kubectl get services
+  974  docker ps
+  975  docker inspect 7a921fa63ad7
+  976  kubectl get services
+  977  kubectl get services>mukeshservice.txt
+  978  kubectl get pods>mukeshpods.txt
+  979  ls
+  980  history 50 >historyKubectl.txt

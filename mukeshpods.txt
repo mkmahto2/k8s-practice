@@ -1,0 +1,11 @@
+NAME                                 READY   STATUS             RESTARTS   AGE
+adhhocdepmkmahto5-67887dc8cc-27shk   0/1     ImagePullBackOff   0          26m
+adhhocdepmkmahto5-67887dc8cc-dcxwr   0/1     ImagePullBackOff   0          26m
+adhhocdepmkmahto5-67887dc8cc-vz2cd   0/1     ImagePullBackOff   0          26m
+adhocpod1                            1/1     Running            0          46m
+adhocpod2                            0/1     Pending            0          37m
+adhocpod6                            0/1     Pending            0          22m
+adhocpod7                            0/1     ImagePullBackOff   0          16m
+adhocrsmkmahto4-qrrlx                0/1     ImagePullBackOff   0          32m
+jenkinspod1                          0/1     ImagePullBackOff   0          9m4s
+podexam                              0/1     ImagePullBackOff   0          13m
